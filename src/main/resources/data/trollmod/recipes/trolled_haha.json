@@ -1,0 +1,15 @@
+{
+  "type": "trollmod:trolling_table",
+  "ingredients": [
+    {
+      "item": "trollmod:troll_essence"
+    },
+    {
+      "item": "trollmod:troll_essence"
+    }
+  ],
+  "output": {
+    "item": "trollmod:troll_essence",
+    "count": 1
+  }
+}

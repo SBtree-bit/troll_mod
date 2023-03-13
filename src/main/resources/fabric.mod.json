@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "trollmod",
+  "version": "${version}",
+
+  "name": "Troll Mod",
+  "description": "This mod is a giant troll.",
+  "authors": [
+    "SBtree"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/textures/item/troll_essence.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sbtree.trollmod.TrollMod"
+    ],
+    "client": [
+      "net.sbtree.trollmod.TrollModClient"
+    ]
+  },
+  "mixins": [
+    "trollmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
